@@ -46,7 +46,7 @@ async def alive(client: Client, message: Message):
     send = client.send_video if alive_logo.endswith(".mp4") else client.send_photo
     uptime = await get_readable_time((time.time() - StartTime))
     man = (
-        f"**[PyroMan-Userbot](https://github.com/mrismanaziz/PyroMan-Userbot) is Up and Running.**\n\n"
+        f"**[Joox-Userbot](https://github.com/mrismanaziz/PyroMan-Userbot) is Up and Running.**\n\n"
         f"<b>{alive_text}</b>\n\n"
         f"{emoji} <b>Master :</b> {client.me.mention} \n"
         f"{emoji} <b>Modules :</b> <code>{len(modules)} Modules</code> \n"
